@@ -1,0 +1,37 @@
+* {
+    color: #d9d9d9;
+    margin: 0;
+    padding: 0;
+    font-family: courier;
+}
+
+body {
+    background-color: #1d1d1d;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    gap: 20px 20px;
+    place-items: center;
+    text-align: center;
+}
+
+.navbar {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+label {
+    margin-right: 40px;
+}
